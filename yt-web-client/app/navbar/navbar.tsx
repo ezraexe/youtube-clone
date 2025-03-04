@@ -7,6 +7,7 @@ import SignIn from "./sign-in";
 import {onAuthStateChangedHelper} from "../firebase/firebase";
 import { useEffect, useState } from "react";
 import { User } from "firebase/auth";
+import Upload from "./upload";
 export default function Navbar() {
     const [user, setUser] = useState<User | null>(null); 
 
@@ -27,7 +28,7 @@ export default function Navbar() {
             
             </Link>
             {
-                // todo: add a upload
+                user && <Upload /> // if user is logged in, show the upload component, almost like an if statement 
             }
             <SignIn user={user} />
         </nav> 
