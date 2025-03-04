@@ -20,7 +20,9 @@ RUN npm run build
 FROM node:18
 
 # Install ffmpeg in the container
-RUN apt-get update && apt-get install -y ffmpeg
+RUN apt-get update && \
+    apt-get install -y ffmpeg && \
+    apt-get clean
 
 # Set the working directory
 WORKDIR /app
