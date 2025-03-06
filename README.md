@@ -66,5 +66,5 @@ A full-stack video sharing platform built with modern web technologies.
 
 ## Project Runthrough 
 
-
+![Website Screenshot](https://drive.google.com/uc?export=view&id=1RTzKVZR3TVeYVeda3HxI3kUKiilwkbwf)
 
