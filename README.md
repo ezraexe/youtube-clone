@@ -66,5 +66,25 @@ A full-stack video sharing platform built with modern web technologies.
 
 ## Project Runthrough 
 
+**Landing Page**
 ![Website Screenshot](https://drive.google.com/uc?export=view&id=1RTzKVZR3TVeYVeda3HxI3kUKiilwkbwf)
+
+
+**Signed In Page**
+![Website Screenshot](https://drive.google.com/uc?export=view&id=1yAjI7ZtlQ87RPE_CikuaMtKb7JEew_y7)
+
+
+**Bucket Transfer**
+![Website Screenshot](https://drive.google.com/uc?export=view&id=16kwpGFshX1frsEIcVmmBBJfvWqNCMI8D)
+
+
+![Website Screenshot](https://drive.google.com/uc?export=view&id=1alaG8-1dkN4zIQtwgCiCHvfVc1z1r75m)
+
+
+**Firestore**
+![Website Screenshot](https://drive.google.com/uc?export=view&id=1XKrEodfuMdBHL3j8Wr_s0ZpLv3k7bJzN)
+
+
+**Watch Page** 
+![Website Screenshot](https://drive.google.com/uc?export=view&id=1PF_omsrfK_T9CMdU7OwOmcOqR5R7rMIw)
 
