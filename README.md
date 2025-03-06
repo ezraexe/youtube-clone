@@ -88,3 +88,15 @@ After the video is processed and stored into the processed bucket, the video inf
 ### Watch Page
 ![Website Screenshot](https://drive.google.com/uc?export=view&id=1PF_omsrfK_T9CMdU7OwOmcOqR5R7rMIw)
 The video is now rendered and ready to view on the website. 
+
+### Playwright Testing
+Just to introduce myself to Playwright and Typescript, I created a simple test that clicks the website and functionality of navigating the website.
+
+![Website Screenshot](https://drive.google.com/uc?export=view&id=1oyV2BLEAGpxOMvzNNu-eyTgxEqRPsdQd)
+
+
+
+
+## Project Limitations
+
+Because the project covers the bare bones of a full stack development project, Pub/Sub has many limitations. An example would be, if the video processing takes longer than 600 seconds, Pub/Sub will close the HTTP connection. Becuase of this we will never be able to send the acknowledgement to Pub/Sub. We can fix this in future development by using a pull subscription instead of a push subscription. 
